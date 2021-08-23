@@ -1,0 +1,33 @@
+.TH APPSTACK-RUN "1" "July 2021" "AppStackJS 0.1.0" "User Commands"
+.SH NAME
+appstack run \- Run AppStack Node.js Applications in production.
+.SH SYNOPSIS
+.B appstack run
+[\fB\-\-brief\fR]
+[\fB\-c\fR|\fB\-\-config\fR \fIFILE\fR]
+[\fB\-h\fR|\fB\-\-help\fR]
+[\fB\-v\fR|\fB\-\-verbose\fR]
+[\fB\-\-\fR [\fIOPTIONS\fR...]]
+.SH DESCRIPTION
+Run AppStack applications that you or someone else has written, using extensive customizability and in a production-ready workflow.
+.SH OPTIONS
+.TP
+.BR \-\-brief
+Print brief details.
+Opposite of \-\-verbose.
+.TP
+.BR \-c ", " \-\-config =\fIFILE\fR
+Set the JSON file to use as the application configuration.
+Default is `./appstack.json`.
+.TP
+.BR \-h ", " \-\-help
+Print a help message and exit.
+.TP
+.BR \-v ", " \-\-verbose
+Print verbose output.
+Opposite of \-\-brief.
+.TP
+.BR \fIOPTIONS\fR...
+Further options to be passed on to the main application process.
+.\" vim: syntax=nroff filetype=nroff
+

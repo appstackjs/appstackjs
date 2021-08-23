@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/appstackjs/appstackjs/issues"
   },
-  "homepage": "https://github.com/appstackjs/appstackjs#readme"
+  "homepage": "https://github.com/appstackjs/appstackjs#readme",
+  "bin": {
+    "appstack": "./appstack-boot.js"
+  }
 }
